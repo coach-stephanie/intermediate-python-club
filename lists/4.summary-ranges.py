@@ -50,4 +50,11 @@
 #
 #------------------------------------------------------------------------------------
 
-def summaryRanges(nums: List[int]) -> List[str]:
+def summaryRanges(nums: list[int]) -> list[str]:
+    # Your code goes here!
+    
+
+
+#
+# TEST:
+#

@@ -1,9 +1,13 @@
+# import pytest
+
+# pytest.main()
+
 #
 # LISTS Challenge 2: Find Minimum & Maximum 
 # 
-# Find minimum and maximum element in an array:
-# Given an array nums of size N of integers. Your task is to 
-# return the minimum and maximum elements in a tuple. 
+# Find the minimum and maximum elements in an array:
+# You will be given an array of integers called nums of size N. 
+# Your task is to return the minimum and maximum elements in a tuple. 
 #
 #
 #------------------------------------------------------------------------------------
@@ -22,4 +26,13 @@
 #
 #------------------------------------------------------------------------------------
 
-def findMinMax(nums: List[int]) -> List[int]:
+def findMinMax(nums: list[int]) -> list[int]:
+    # Your code goes here!
+    return "Haha"
+
+
+#
+# TEST:
+#
+print(findMinMax([3, 2, 1, 56, 10000, 167]))
+print(findMinMax([1, 345, 234, 21, 56789]))
